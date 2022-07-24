@@ -1,21 +1,42 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{	
+void put_into_box(int x);
+void lottery();
 
-	int i;
+int lottery_num;
+int num;
 
-    printf("這啥%c"," \n"[i == 0]);
-    
-	return 0;
-}
-/*
-Sample Input
+int box[8]; //開獎號碼
+int num[8]; //自選號碼
 
-1234
+	int main()
+	{	
+		while(scanf("%d % %d %d %d %d %d", ))
+		return 0;
+	}
 
-Sample Output
-1 0 2 0 3 0 4
-*/
 
+	void lottery()
+	{
+		for(int i = 7; i >= 0; i--)
+		{
+			num[i] = num % 10;
+			num = num / 10;
+		}
+
+
+
+		
+		
+	}	
+
+	void put_into_box(int x)
+	{
+		for(int i = 7; i >= 0; i--)	// 特獎一等獎全部變array.
+		{
+			box[i] = x % 10;
+			x = x / 10;
+
+			return;			
+		}
+	}
