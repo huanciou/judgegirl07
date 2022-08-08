@@ -20,11 +20,14 @@ int main()
 		}
 
 	}
+
 	double dice[7] = {	(double)arr[0],
-						(double)arr[1], 
-				  		(double) arr[2],																		  		(double) arr[3],
+						(double)arr[1],	
+						(double) arr[2],
+						(double) arr[3],
 						(double) arr[4],	
-						(double) arr[5],																				(double) arr[6]
+						(double) arr[5],
+						(double) arr[6]	
 					};
 		
 	for(int j = 1; j <= 6; j++)

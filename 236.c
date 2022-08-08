@@ -1,33 +1,43 @@
 #include <stdio.h>
 
-void LCM_calculator (); // 最小公倍數
+void LCM();
 
-int box[10000];
-int i = 0;
+int num[500000] = {0};
+int n = 0;
 
 int main()
 {
-	while(scanf("%d", box[i]))
+
+	while(scanf("%d", &num[n]) != EOF)
 	{
-		if( getchar[] != ' ')
-		{
-			break;
-		}
-		i++;
+		n++;
 	}
-	
-	LCM_calculator();
+
+	//LCM(n, num);
 
 	return 0;
 }
 
-void LCM_calculator()
+/*void LCM()
 {
-	for(int j = 3;; j++)
+	for(int i = 1; i < 2100000000; i++)
 	{
-		for(int k = i; k >= 0;k--)
+		for(int j = 0; j <= n; j++)
 		{
-			box[k];
+			if (i % num[j] == 0)
+			{	
+				if(j == n-1)
+				{
+					printf("%d", i);
+					return;
+				}
+				continue;
+			}
+			else
+			{
+				break;
+			}
 		}
 	}
-}
+	
+} */

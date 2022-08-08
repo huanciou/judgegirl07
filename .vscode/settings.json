@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "main.C": "cpp"
-    }
+        "*.c": "c",
+        "main.C": "cpp",
+        "stdint.h": "c"
+    },
+    "git.ignoreLimitWarning": true
 }
